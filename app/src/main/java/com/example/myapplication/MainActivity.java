@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 String res = DBUtil2.QuerySQL();
+                tvUName.setText(res);
+
+                // 下面这个好像行不通
                 Message msg = new Message();
                 msg.what = 1001;
                 Bundle data = new Bundle();

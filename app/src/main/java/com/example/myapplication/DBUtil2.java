@@ -30,7 +30,7 @@ public class DBUtil2 {
             try
             {
                 Connection conn = getSQLConnection("192.168.0.104", "sa", "cheyi", "testApp");
-                String sql = "select * from user";
+                String sql = "select * from [user]";
                 Statement stmt = conn.createStatement();//
                 ResultSet rs = stmt.executeQuery(sql);
                 while (rs.next())
