@@ -1,8 +1,11 @@
 ## 安卓APP读取数据库
+* 手机打开开发者模式
+* MainActivity2是可以使用的，和MainActivity区别在哪？
 
 ## TODO
 - [x] MainActivity2是可以使用的，和MainActivity区别在哪？是把DBUtil分开的原因？
-  - 好像又可以了，不是工具类和活动分开的原因
+    - MainActivity好像又能用了,MainActivity2好像bug了，button的监听事件无对象（无语）。
+    - 和工具类和Activity是否分开来写没有太大关系
 - [ ] 增删改查数据
 
 ## 注意
