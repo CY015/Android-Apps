@@ -1,9 +1,9 @@
 ## 安卓APP读取数据库
-* MainActivity2是可以使用的，和MainActivity区别在哪？
 
 ## TODO
-- [] MainActivity2是可以使用的，和MainActivity区别在哪？
-- [] 是把DBUtil分开的原因？
+- [x] MainActivity2是可以使用的，和MainActivity区别在哪？是把DBUtil分开的原因？
+  - 好像又可以了，不是工具类和活动分开的原因
+- [ ] 增删改查数据
 
 ## 注意
 1. 配置SQL Server的TCP/IP端口（1433）并且关闭Windows防火墙（Win11在设置里直接搜索defender）
